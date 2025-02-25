@@ -8,8 +8,6 @@ New Spearmint major releases (X.0.0) will break VM and network compatibility wit
 
 The source code for the Spearmint Quake 3 game, cgame, and ui code and QVM compiler is at [clover-moe/mint-arena](https://github.com/clover-moe/mint-arena/). Map editor and map compiler are available at https://icculus.org/gtkradiant/.
 
-[![Buy Me a Coffe at ko-fi.com](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/zturtleman)
-
 ## Download
 
 Pre-built packages for Windows, GNU/Linux, and Mac OS X are available at the [Spearmint website](https://clover.moe/spearmint).
