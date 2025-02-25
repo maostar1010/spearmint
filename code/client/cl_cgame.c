@@ -1131,7 +1131,7 @@ void CL_LoadWorldMap( const char *name ) {
 
 /*
 ====================
-CL_ShutdonwCGame
+CL_ShutdownCGame
 
 ====================
 */
