@@ -298,6 +298,22 @@ Suite 120, Rockville, Maryland 20850 USA.
 
 #endif
 
+//================================================================== EMSCRIPTEN ===
+
+#ifdef __EMSCRIPTEN__
+
+#define OS_STRING "emscripten"
+#define ID_INLINE inline
+#define PATH_SEP '/'
+
+#define ARCH_STRING "wasm32"
+
+#define Q3_LITTLE_ENDIAN
+
+#define DLL_EXT ".wasm"
+
+#endif
+
 //================================================================== Q3VM ===
 
 #ifdef Q3_VM

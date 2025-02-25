@@ -2996,7 +2996,14 @@ void Com_Init( char *commandLine ) {
 #if idppc_altivec
 	com_altivec = Cvar_Get ("com_altivec", "1", CVAR_ARCHIVE);
 #endif
+#ifdef __EMSCRIPTEN__
+	// Under Emscripten the browser handles throttling the frame rate.
+	// Manual framerate throttling interacts poorly with Emscripten's
+	// browser-driven event loop. So default throttling to off.
+	com_maxfps = Cvar_Get ("com_maxfps", "0", CVAR_ARCHIVE);
+#else
 	com_maxfps = Cvar_Get ("com_maxfps", "85", CVAR_ARCHIVE);
+#endif
 	com_singlePlayerActive = Cvar_Get ("ui_singlePlayerActive", "0", CVAR_SYSTEMINFO | CVAR_ROM);
 
 	com_logfile = Cvar_Get ("logfile", "0", CVAR_TEMP );
