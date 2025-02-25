@@ -15,8 +15,8 @@
     </p>
   </description>
   <url type="homepage">https://clover.org/spearmint</url>
-  <url type="bugtracker">https://github.com/zturtleman/spearmint/issues</url>
-  <url type="vcs-browser">https://github.com/zturtleman/spearmint</url>
+  <url type="bugtracker">https://github.com/clover-moe/spearmint/issues</url>
+  <url type="vcs-browser">https://github.com/clover-moe/spearmint</url>
   <developer_name>zturtleman</developer_name>
   <content_rating type="oars-1.1">
     <content_attribute id="violence-realistic">intense</content_attribute>

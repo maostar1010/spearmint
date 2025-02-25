@@ -8,7 +8,7 @@ export USE_CURL="${USE_CURL:-1}"
 export USE_CODEC_OPUS="${USE_CODEC_OPUS:-1}"
 export USE_VOIP="${USE_VOIP:-1}"
 export COPYDIR="${COPYDIR:-~/spearmint}"
-ENGINEREMOTE="${ENGINEREMOTE:-https://github.com/zturtleman/spearmint.git}"
+ENGINEREMOTE="${ENGINEREMOTE:-https://github.com/clover-moe/spearmint.git}"
 MAKE_OPTS="${MAKE_OPTS:--j2}"
 
 if ! [ -x "$(command -v git)" ] || ! [ -x "$(command -v make)" ]; then
@@ -20,7 +20,7 @@ fi
 echo " This build process requires all of the Spearmint dependencies necessary for a Spearmint server.
  If you do not have the necessary dependencies the build will fail.
 
- Please post a message to http://forum.clover.moe/ asking for help and include whatever error messages you received during the compile phase.
+ Please post a message to https://github.com/clover-moe/spearmint/issues asking for help and include whatever error messages you received during the compile phase.
 
  We will be building from the git repo at ${ENGINEREMOTE}
  The resulting binary will be installed to ${COPYDIR}

@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/zturtleman/spearmint/master/misc/spearmint_text.png" width="256">
+<img src="https://raw.githubusercontent.com/clover-moe/spearmint/master/misc/spearmint_text.png" width="256">
 
 **Spearmint** is a fork of [ioquake3](https://github.com/ioquake/ioq3) with two main goals; 1) provide a flexible engine for creating new games and mods, 2) support features from (and running) various id Tech 3-based games.
 
@@ -6,7 +6,7 @@ Spearmint can be used to play Quake III Arena, Quake III: Team Arena, and Turtle
 
 New Spearmint major releases (X.0.0) will break VM and network compatibility with previous releases.
 
-The source code for the Spearmint Quake 3 game, cgame, and ui code and QVM compiler is at [zturtleman/mint-arena](https://github.com/zturtleman/mint-arena/). Map editor and map compiler are available at https://icculus.org/gtkradiant/.
+The source code for the Spearmint Quake 3 game, cgame, and ui code and QVM compiler is at [clover-moe/mint-arena](https://github.com/clover-moe/mint-arena/). Map editor and map compiler are available at https://icculus.org/gtkradiant/.
 
 [![Buy Me a Coffe at ko-fi.com](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/zturtleman)
 
@@ -17,7 +17,7 @@ Pre-built packages for Windows, GNU/Linux, and Mac OS X are available at the [Sp
 
 ## Resources
 
-  * [Development documentation](https://github.com/zturtleman/spearmint/wiki)
+  * [Development documentation](https://github.com/clover-moe/spearmint/wiki)
   * [Discussion / Technical support](https://clover.moe/open-source)
 
 

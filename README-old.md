@@ -6,7 +6,7 @@
            /        \| |_)   ___// () \|  | '/  | |  \ |  ||  \  |
           /_________/|  __/\____/__/\__\__|  |__|_|__/_|__||__/__|
                |     |_|                                       |
-               `--- https://github.com/zturtleman/spearmint ---'
+               `--- https://github.com/clover-moe/spearmint ---'
 
 **Spearmint** has two main goals;
 
@@ -57,7 +57,7 @@ website for updated status.
 # Game Code
 
 The Quake 3 game, cgame, and ui code and QVM compiler are not included. If you wish to play Quake 3, you'll need to get
-and build https://github.com/zturtleman/mint-arena/ too.
+and build https://github.com/clover-moe/mint-arena/ too.
 
 # Engine Compilation and installation
 
