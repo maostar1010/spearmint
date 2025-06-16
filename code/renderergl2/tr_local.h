@@ -2074,6 +2074,8 @@ extern cvar_t	*r_surfaceFlagNoDraw;
 extern cvar_t	*r_colorize2DIdentity;
 extern cvar_t	*r_missingLightmapUseDiffuseLighting;
 
+extern cvar_t *r_vaoCache;
+
 //====================================================================
 
 static ID_INLINE qboolean ShaderRequiresCPUDeforms(const shader_t * shader)
